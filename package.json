@@ -1,0 +1,26 @@
+{
+  "name": "hepingji",
+  "version": "1.0.0",
+  "description": "a peaceful bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willscott/hepingji.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram"
+  ],
+  "author": "will scott <willscott@gmail.com> (https://wills.co.tt)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/willscott/hepingji/issues"
+  },
+  "homepage": "https://github.com/willscott/hepingji#readme",
+  "dependencies": {
+    "telegraf": "^3.32.0"
+  }
+}
