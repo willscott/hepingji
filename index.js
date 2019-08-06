@@ -7,7 +7,7 @@ bot.on('message', async (ctx) => {
     if (ctx.updateSubTypes.indexOf('document') > -1 ) {
         await ctx.telegram.deleteMessage(ctx.message.chat.id, ctx.message.message_id)
     }
-    console.log(ctx.updateSubTypes)
-    console.log(ctx.message)
+    //console.log(ctx.updateSubTypes)
+    //console.log(ctx.message)
 })
 bot.launch()
