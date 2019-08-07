@@ -29,7 +29,8 @@ bot.on('message', async (ctx) => {
 })
 
 if (process.argv[1]) {
-    bot.setWebhook(process.argv[1])
+    bot.startWebhook('/', null, 5000)
+    bot.telegram.setWebhook(process.argv[1])
 }
 
 bot.launch()
