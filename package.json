@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/willscott/hepingji#readme",
   "dependencies": {
-    "telegraf": "^3.32.0"
+    "telegraf": "^3.32.0",
+    "tokenbucket": "^0.3.2"
   }
 }
